@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    background-color: rgb(217, 224, 231);
+}
+/* ==============HEADER========*/
+
+.header_container{
+  display: flex;
+  justify-content:space-evenly;
+  width: 100%;
+  height: 10vh;
+  position:sticky;
+  top: 0;
+  z-index: 2;
+  background-color:#ffff;
+}
+.logo_image img{
+    margin-top:-9px;
+    height: 100px;
+    width: 150px;
+
+}
+
+input[type=search]{
+    width: 50vw;
+    height:35px;
+    box-sizing: border-box;
+    background-color: rgb(216, 238, 245);
+    border-radius: 4px;
+    border: none;
+    margin-top: 20px;
+}
+.login,.cart,.become_seller {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+/* =========END HEADER========= */
+/* ========TOP PRODUCTS LIST======= */
+.header_products{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content:center;
+    width: 100%;
+    height: 15vh;
+    background-color:#ffff;
+    margin-top: 9px;
+}
+.product_box{
+    margin: 15px 25px 0px 20px;
+}
+.product_box span{
+    display:block;
+    text-align: center;
+
+
+}
+.product_box img{
+    height: 60px;
+    object-fit: contain;
+
+}
+/* =======END HEADER PRODUCT LIST===== */
+/* =======ADVERTISMENT========== */
+.advertisment{
+    width: 100%;
+    height: 250px;
+    margin: 10px 0px 5px 0px;
+}
+.advertisment img{
+   width: 100%;
+
+}
+
+/* ========END ADVERTISMENT====== */
+
+/* ==========ELECTRIC PRODUTS&ADS============ */
+.electric_ads{
+    display: flex;
+    height: 350px;
+    margin: 15px 10px 0px 10px;
+    position: relative;
+
+}
+.product_main{
+    display: flex;
+    flex:3;
+    background-color:#fff;
+    align-items: center;
+}
+.heading {
+    display:inline;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    margin: 0;
+}
+.ads{
+    flex:2;
+    background-color: rgb(217, 224, 231);
+    align-items: center;
+}
+.ads img{
+    height: 350px;
+    width: 200px;
+    margin-left: 10px;
+    object-fit: fill;
+}
+
+.product_container{
+    height: 250px;
+    width: 250px;
+    margin: 5px ;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.189);
+    background-color:#fff;
+    align-content: center;
+    text-align: center;
+    
+}
+.product_container img{
+    height: 200px;
+    width: 150px;
+    object-fit: contain;
+
+}
+.product_container p{
+    margin: 0;
+    color: rgba(0, 0, 0, 0.653);
+}
+.product_container span{
+    font-weight: bold;
+}
+/* ===========END ELECTRIC PRODUTS&ADS=================== */
+/* ==============ALL_PRODUCTS================= */
+.all_products{
+    height: 350px;
+    width: 100%;
+    margin: 15px 10px 0px 10px;
+    background-color:#fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+/* ========END ALL PRODUCT================== */
+/* ==========sports&ads_main============================= */
+.main_control{
+    display: flex;
+}
+.offer_main{
+    height: 600px;
+    width:500px;
+    margin: 20px 10px 0px 10px;
+    background-color:#ffff;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content: center;
+}
+.offer_container{
+    height: 250px;
+    width: 200px;
+    margin: 5px ;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.189);
+    background-color:#fff;
+    align-content: center;    
+}
+.offer_container img{
+    height: 180px;
+    width:170px;
+    object-fit: contain;
+    margin-left: 15px;
+
+}
+.offer_container p{
+    margin: 0;
+    color: rgba(0, 0, 0, 0.653);
+}
+
+
+.product_ads{
+    margin: 15px 0px 0px 15px;
+}
+.offer{
+    font-weight: bold;
+    color: rgb(10, 197, 51);
+}
+.product_ads img{
+    height:100%;
+    width:60%;
+}
+/* =========END sports&ads_main============================= */
+
+/* ============FOOTER================ */
+.footer_main{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    color: #ffff;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+}
+.about_detail{
+    text-align:left;
+    margin-top: 5em;
+}
+.about_detail h2{
+    display:inline;
+    font-size: 15px;
+    margin: 10px 5px 0px 35px;
+    color: rgba(213, 204, 204, 0.582);
+}
+.vr{
+    border-left: 2px solid rgb(158, 150, 150);
+    height: 190px;
+    position: absolute;
+    left:50%;
+    top:15%;
+}
+.about_detail span{
+    color: blue;
+}
+hr{
+    position: absolute; 
+    bottom: 13%;
+    border: 2px solid rgb(158, 150, 150);
+    width: 100%;
+}
+
+.footer_datails ul{
+    display: flex;
+}
+.footer_datails li{
+    margin: 15px 50px 10px 30px;
+}
+.footer_datails img{
+    height: 20px;
+    vertical-align:sub;
+    margin-right: 5px;
+}
+.about_detail h3{
+    color: rgba(213, 204, 204, 0.582);
+}
+.social{
+    display: flex;
+ } 
+.social li{
+    margin-right:15px ;
+}
+
+/* ===================END FOOTER====================================== */
+
+
+@media screen and (max-width:1400px){
+   
+    .advertisment{
+        width: auto;
+        height: auto;
+    }
+    .logo_image img{
+        margin-top:-20px;
+    }
+    .header_products{
+        flex-wrap: wrap;
+        height: 200px;
+    }
+   
+    .login,.cart,.become_seller {
+        margin-left:10px;
+    }
+    .ads,.product_ads,.vr{
+        display: none;
+    }
+    .electric_ads{
+        height:auto;
+        flex-wrap: wrap;
+    }
+    .main_control,.product_main{
+        flex-wrap: wrap;
+    }
+    .product_main,.all_products{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .product_container{
+        margin-top:40px;
+       
+    }
+    .offer_main{
+        height:auto;
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+   
+    .offer_container{
+        margin-top: 40px;
+    }
+    
+}
+@media screen and (min-width:700px) and (max-width:1500px) {
+    .product_ads img{
+        height:600px;
+        width:50%
+
+    }
+   
+}
+
+@media screen and (max-width:900px){
+    .offer_main{
+        height: auto;
+    }
+    .header_products{
+        flex-wrap: wrap;
+        height:300px;
+    }
+    .logo_image img{
+       width: 50px;
+    }
+    
+}
+
+@media screen and (max-width:750px){
+    .footer_main{
+        display: none;
+    }
+   
+    
+}
+@media screen and (min-width:700px) and (max-width:1000px){
+    hr{
+        bottom: 10%;
+    }
+    .footer_datails li{
+        margin: auto;
+        font-size:small;
+    }
+    .footer_datails img{
+        height: auto;
+        width: auto;
+    }
+}
+
